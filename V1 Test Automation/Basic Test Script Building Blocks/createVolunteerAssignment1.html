@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://evergreen.omegaportal.org/" />
+<title>Create Volunteer Position</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Create Volunteer Position</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://evergreen.omegaportal.org</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>ctlrBar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>session_username</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>session_password</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>session_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Volunteering</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create an Assignment</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_name</td>
+	<td>Test Volunteer Position</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_description</td>
+	<td>This is a position created for testing purposes only</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>volunteering_position_recurrent_false</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_start_date</td>
+	<td>2011-04-29</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_start_time</td>
+	<td>12:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_end_time</td>
+	<td>14:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_contacts_attributes_0_first_name</td>
+	<td>Bob</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_contacts_attributes_0_last_name</td>
+	<td>Smith</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_contacts_attributes_0_email</td>
+	<td>john.ellenberger@sap.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_contacts_attributes_0_phone_numbers_attributes_0_number</td>
+	<td>9784482087</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_skills_values</td>
+	<td>ability to test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>volunteering_position_interests_values</td>
+	<td>test scripting</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>volunteering_position_disclaimer_agreement_not_required</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>volunteering_position_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='ctlrBar']/a[1]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure?</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
