@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://sandbox.omegaportal.org/" />
+<title>FB</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">FB</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/#</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.btnLoginCtrl &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=session_username</td>
+	<td>joe</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=session_password</td>
+	<td>smith</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=session_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=MyOmega</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Volunteer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Apply</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=volunteering_record_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.btnLoginCtrl &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=session_username</td>
+	<td>joe</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=session_password</td>
+	<td>smith</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=session_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=MyOmega</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@id='fb']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=l</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUpAndWait</td>
+	<td>f1430127962e58e</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>twttrHubFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>twttrHubFrame_xd_0</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=l</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>twttrHubFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>twttrHubFrame_xd_0</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=twttrHubFrame_xd_0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:New to Twitter? Sign up »</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#ctlrBar &gt; a &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure?</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
